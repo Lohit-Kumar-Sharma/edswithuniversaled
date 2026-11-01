@@ -1,0 +1,21 @@
+<div class="search-box">
+  <h2 class="search-title">Find a car</h2>
+  <form class="search-form" role="search" autocomplete="off">
+    <div class="search-field">
+      <label class="search-label" for="search-input">Car name</label>
+      <input
+        id="search-input"
+        class="search-input"
+        type="text"
+        placeholder="Try Creta, Nexon or Swift"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="search-suggestions"
+      >
+      <ul id="search-suggestions" class="search-suggestions" role="listbox" hidden></ul>
+    </div>
+    <button class="search-button" type="submit">Search</button>
+  </form>
+  <div class="search-result" aria-live="polite"></div>
+</div>
