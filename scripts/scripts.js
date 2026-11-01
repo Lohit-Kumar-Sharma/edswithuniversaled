@@ -73,7 +73,6 @@ function buildWidgetAutoBlocks(main) {
   });
 }
 
-
 function autolinkModals(element) {
   element.addEventListener('click', async (e) => {
     const origin = e.target.closest('a');
@@ -85,8 +84,6 @@ function autolinkModals(element) {
     }
   });
 }
-
-
 
 /**
  * Builds all synthetic blocks in a container element.
@@ -199,8 +196,7 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
-
-    autolinkModals(doc);
+  autolinkModals(doc);
 
   loadHeader(doc.querySelector('body > header'));
 
