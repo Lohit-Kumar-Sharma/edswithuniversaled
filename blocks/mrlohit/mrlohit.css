@@ -1,0 +1,72 @@
+.mrlohit {
+  display: grid;
+  gap: 32px;
+  padding: 32px 24px;
+  border-radius: 12px;
+  background-color: var(--light-color);
+}
+
+.mrlohit .mrlohit-name {
+  margin: 0;
+  font-size: var(--heading-font-size-xl);
+}
+
+.mrlohit .mrlohit-role {
+  margin: 8px 0 0;
+  font-weight: 600;
+  color: var(--link-color);
+}
+
+.mrlohit .mrlohit-location {
+  margin: 4px 0 0;
+  font-size: var(--body-font-size-xs);
+  color: var(--dark-color);
+}
+
+.mrlohit .mrlohit-summary {
+  margin: 16px 0 0;
+}
+
+.mrlohit .mrlohit-details {
+  display: grid;
+  gap: 24px;
+}
+
+.mrlohit .mrlohit-section h3 {
+  margin: 0 0 12px;
+  font-size: var(--heading-font-size-xs);
+}
+
+.mrlohit .mrlohit-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--body-font-size-xs);
+}
+
+.mrlohit .mrlohit-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.mrlohit .mrlohit-section li:last-child {
+  border-bottom: none;
+}
+
+.mrlohit .mrlohit-company,
+.mrlohit .mrlohit-period {
+  display: block;
+  color: var(--dark-color);
+}
+
+@media (width >= 900px) {
+  .mrlohit {
+    grid-template-columns: 1fr 2fr;
+    gap: 48px;
+    padding: 48px;
+  }
+
+  .mrlohit .mrlohit-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
