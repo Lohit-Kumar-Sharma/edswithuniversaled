@@ -5,7 +5,7 @@ const DEFAULTS = {
   role: 'Manager (Senior AEM Developer)',
   location: 'Gurugram, India',
   summary: 'AEM specialist with 8+ years of enterprise delivery across AEM as a Cloud Service, Edge Delivery Services, migrations, and architecture. Former AEM Technical Consultant at Adobe.',
-  website: 'https://lohitkumarsharma.com',
+  website: 'https://lohitkumarsharma.com/about',
 };
 
 const EXPERTISE = [
